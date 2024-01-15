@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formats Display</title>
+    <style>
+        .underline {
+            text-decoration: underline;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+
+        /* Styles for rectangular boxes */
+        .box {
+            border: 2px solid #333; /* Border style */
+            padding: 10px; /* Spacing inside the box */
+            margin: 10px; /* Spacing outside the box */
+            display: inline-block; /* Display boxes inline */
+        }
+
+        /* Different colors for the boxes */
+        .red-box {
+            background-color: red;
+            color: white;
+        }
+
+        .green-box {
+            background-color: green;
+            color: white;
+        }
+
+        .blue-box {
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>This is a paragraph of text to demonstrate different text formats.</p>
+
+    <p class="bold">This paragraph is bold.</p>
+    <p class="italic">This paragraph is in italics.</p>
+    <p class="underline">This paragraph is underlined.</p>
+
+    <p>You can also <span class="bold">combine</span> <span class="italic">formats</span> <span class="underline">like this</span>.</p>
+
+    <p><b>Bold text using 'b' tag</b>, <i>italic text using 'i' tag</i>, and <u>underlined text using 'u' tag</u>.</p>
+
+    <p>For more advanced formatting, you might want to look into <strong>CSS</strong> and <em>HTML classes</em>.</p>
+
+    <!-- Rectangular boxes with different text and colors -->
+    <div class="box red-box">Red Box</div>
+    <div class="box green-box">Green Box</div>
+    <div class="box blue-box">Blue Box</div>
+</body>
+</html>
